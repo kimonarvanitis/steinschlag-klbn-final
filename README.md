@@ -1,13 +1,13 @@
-# Steinschlag
+# Steinschlag-Projekt
 
-See the readme.md files in the corresponding folders for instructions and more details.
+Dieses Projekt simuliert und analysiert Steinschlag-Szenarien.
 
-## Analysis
+## Struktur
+- `analysis/` – Analyse der Daten, Verteilungen, Fits
+- `simulation/` – Skripte zur Simulation neuer Steine
+- `data/` – Input- und Beispiel-Daten
+- `docs/` – Dokumentation
 
-The analysis folder contains everything about the analysis of the data including finding and fitting the used
-distributions
-
-## Simulation
-
-The simulation folder contains the script to generate new rocks (according to the distributions found in the analysis)
-and to calculate the death probability
+## Installation
+```bash
+pip install -r requirements.txt
